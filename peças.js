@@ -8,7 +8,7 @@ let peso_peca = 75;
 if(peso_peca>100){
     console.log("Peso maior que 100g, é possível cadastrar a peça");
 }else{
-    console.log("Peso dentro menor que 100g, não é possível cadastrar a peça");
+    console.log("Peso menor que 100g, não é possível cadastrar a peça");
 }
 
 let numero_peca = 10;
@@ -16,7 +16,7 @@ let numero_peca = 10;
 if (numero_peca<10){
     console.log("Há espaço na caixa, é possível realizar o cadastro");
 }else{
-    console.log("Caixa com capacidade máxima, não é possível realizar o cadastra");
+    console.log("Caixa com capacidade máxima, não é possível realizar o cadastro");
 }
 
 let nome_peca = 'Disco de Freio';
